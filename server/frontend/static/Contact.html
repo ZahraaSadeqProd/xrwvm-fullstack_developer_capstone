@@ -1,0 +1,55 @@
+<html>
+<head>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+</head>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+    <div class="container-fluid">
+      <h2 style="padding-right: 5%;">Dealerships</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="/about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" style="font-size: larger;" href="/contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div style="display: flex; flex-direction: column; align-items: center; padding: 20px;">
+    <!-- Cars image on top -->
+    <div style="width: 60%; margin-top: 30px; margin-bottom: 40px;">
+        <img src="/static/cars.jpeg" style="width: 100%; border-radius: 8px;" alt="Cars">
+    </div>
+    
+    <!-- Contact section with image on left and info on right -->
+    <div style="display: flex; flex-direction: row; width: 60%; align-items: center; justify-content: center; gap: 0;">
+        <!-- Contact image on left -->
+        <div style="flex: 1; display: flex; justify-content: center; align-items: center; padding: 20px;">
+            <img src="/static/contactus.png" style="max-width: 50%; height: auto;" alt="Contact Us">
+        </div>
+        
+        <!-- Vertical dividing line -->
+        <div style="width: 2px; background-color: #ddd; height: 300px; margin: 0 20px;"></div>
+        
+        <!-- Contact info on right -->
+        <div style="flex: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 20px;">
+            <h3>Contact Information</h3>
+            <p style="text-align: center; margin-top: 20px;">
+                Email: info@dealerships.com<br>
+                Phone: (555) 123-4567<br>
+                Address: 123 Dealership Ave<br>
+                City, State 12345
+            </p>
+        </div>
+    </div>
+  </div>
+</html>
